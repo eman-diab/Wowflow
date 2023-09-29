@@ -15,3 +15,9 @@ npm install
 npx cypress open
 ```
 
+
+## What have been done
+For part 1, I use Page Objects as design pattern for UI, I add UI pages files on /support folder & UI test files on /e2e/UI Test folder. 
+
+
+For part 2, I write API test on /e2e/API Test folder. 
