@@ -36,13 +36,13 @@ describe('SignUp', () => {
 
     });
 
-      it("verify items", () => {
+      it("Verify items", () => {
         cy.visit("https://automationexercise.com/", { failOnStatusCode: true });
         home.verifyFeaturesProducts();
 
       });
 
-    it("verify Dress", () => {
+    it("Verify Dress", () => {
         cy.visit("https://automationexercise.com/", { failOnStatusCode: true });
         home.verifyWomenDressProduct();
 
